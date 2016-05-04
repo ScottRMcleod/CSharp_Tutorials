@@ -19,6 +19,12 @@ Class Diagrams from Use Case
 
 Class Name 1: Vendor
 Attibutes: 
+public string Title { get; set; } 
+public string Description { get; set; } 
+public decimal Price { get; set; } 
+public bool Sold { get; set; } 
+public bool PaymentDistributed { get; set; } 
+public Vendor Owner { get; set; } 
 Methods:
 Class Name 2: Store
 Attibutes:
@@ -26,4 +32,5 @@ Methods:
 Class Name 3:
 Attibutes:
 Methods:
+
 
