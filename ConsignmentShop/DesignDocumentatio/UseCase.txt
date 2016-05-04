@@ -1,0 +1,22 @@
+User Case Study 
+
+Title: Consignment Shop Demo
+
+Actors: vendors customers and store owner 
+
+Summary: 
+Create an application  that can be used by the consignment shop to run their business. You need to know who the individuals/vendors are and who have items in the shop and you need to associate these vendors with their items. Each vendor should be assigned a standard commisition, but that may need to be changed on a per-vendor basis. the application should track how much should be paid to each vendor as well as how much money should be paid to the store
+
+Project Requirements:
+1.List of vendors
+2. List of Items per vendor
+3.Each Vendor should have a default commission
+4.Commision can change
+5. track how much to pay the vendor
+6.track how much to pay the store
+
+
+ 
+
+
+
