@@ -15,8 +15,15 @@ Project Requirements:
 5. track how much to pay the vendor
 6.track how much to pay the store
 
+Class Diagrams from Use Case
 
- 
-
-
+Class Name 1: Vendor
+Attibutes: 
+Methods:
+Class Name 2: Store
+Attibutes:
+Methods:
+Class Name 3:
+Attibutes:
+Methods:
 
