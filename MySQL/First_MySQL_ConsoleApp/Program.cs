@@ -22,7 +22,7 @@ namespace SQLDBCOnsoleApp
         static void Main(string[] args)
         {
             mainMenu();
-            string dbConn = "Server=localhost;port=3306;Database=smcleodtechdb;Uid=smcleod;password=$3cur3d!";
+            string dbConn = "Server=localhost;port=3306;Database=databasename;Uid=username;password=password!";
             MySqlConnection conn = new MySqlConnection(dbConn);
             MySqlCommand command = conn.CreateCommand();
             command.CommandText = "Select text from tutorialtbl where id=1";
