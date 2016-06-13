@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Welcome to MVC Bank";
+}
+<div>
+    <h1> Welcome to MVC Bank </h1>
+    <p>
+        Here at MVC Bank we make access to your fund easy with over 25000 ATM's Located with each australia and,
+
+    </p>
+</div>
+<div class="row">
+    <div class="col-md-6 margin-top-20">
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Withdrawal</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-flash"></span> Quick Cash</a> 
+        <a href="@Url.Action("Details", "CheckingAccount")" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-question-sign"></span> Balance Inquiry</a> 
+    </div>
+    <div class="col-md-6 margin-top-20">
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-print"></span> Print Statment</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-transfer"></span> Transferr</a>
+        <a href="#" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Deposite</a>
+    </div>
+</div>
+@*
+    You are using @Request.Browser.Browser, and thats ok!
+
+
+    @{ var amounts = new List<Decimal> { 100, 25.50m, -40, 275.99m };}
+
+    <ul>
+        @foreach(decimal amount in amounts)
+        {
+            <li>@formatAmount(amount)</li>
+        }
+
+    </ul>
+    @helper formatAmount(decimal amount)
+    {
+    string colour = "green";
+    if(amount < 0)
+    {
+        colour = "red";
+    }
+    <span style="color:@colour">@string.Format("{0:c}", amount)</span>
+    }
+*@
